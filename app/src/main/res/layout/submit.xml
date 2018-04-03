@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:background="@drawable/question_background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:scrollbars="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/question_background"
+        android:padding="8dp"
+        android:text="@string/quiz_result"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#E8EAF6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/name_input_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFC107"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textColorHint="#EEEEEE"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/view_score_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_show_score"
+                    android:onClick="showScore" />
+
+                <Button
+                    android:id="@+id/mail_score_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_mail_score"
+                    android:onClick="submitScore" />
+
+                <Button
+                    android:id="@+id/reset_score_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_restart_quiz"
+                    android:onClick="resetQuiz" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/creator_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/maneki_neko" />
+
+    </LinearLayout>
+
+</LinearLayout>

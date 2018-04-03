@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crypto Quiz</string>
+    <string name="question1">Quem é o creador mítico da Bitcoin?</string>
+    <string name="question2">Escolhe as características correctas da Bitcoin:</string>
+    <string name="question3">Uma bitcoin pode ser dividida em quantas casas decimais?</string>
+    <string name="question4">Qual é o melhor hardware para minar Bitcoins?</string>
+    <string name="question2Chk1">BTC é gerada infinitamente.</string>
+    <string name="question2Chk2">BTC pode ser banida.</string>
+    <string name="question2Chk3">BTC não é rastreável.</string>
+    <string name="question2Chk4">BTC é descentralizada.</string>
+    <string name="selected">Selecionado!</string>
+    <string name="unchecked">Despicado!</string>
+    <string name="finalscore">A tua pontuação é:</string>
+    <string name="gold">Ouro</string>
+    <string name="question5">Qual foi o primeiro produto comprado com Bitcoins?</string>
+    <string name="unkown_user">Jogador Desconhecido</string>
+    <string name="number">número</string>
+    <string name="name">nome</string>
+    <string name="quiz_result">Resultado do Questionário</string>
+</resources>
