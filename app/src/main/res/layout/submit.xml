@@ -57,7 +57,7 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="8dp"
-                    android:background="@drawable/ic_show_score"
+                    android:background="@drawable/vieweye"
                     android:onClick="showScore" />
 
                 <Button
@@ -65,7 +65,7 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="8dp"
-                    android:background="@drawable/ic_mail_score"
+                    android:background="@drawable/mail"
                     android:onClick="submitScore" />
 
                 <Button
@@ -73,7 +73,7 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="8dp"
-                    android:background="@drawable/ic_restart_quiz"
+                    android:background="@drawable/reload"
                     android:onClick="resetQuiz" />
 
             </LinearLayout>
